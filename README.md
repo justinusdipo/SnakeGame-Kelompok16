@@ -26,7 +26,7 @@ Snake Game mini merupakan sebuah aplikasi permainan ular sederhana menggunakan b
 #define KANAN 77
 Fungsi ini bertujuan untuk merepresentasikan nilai ASCII dari keyboard "arah".
 
-'struct koordinat'
+ 'struct koordinat' 
 Tipe data ini bertujuan untuk menyimpan kumpulan variabel dari berbagai jenis tipe data dan juga array.
 
 'typedef struct koordinat koordinat'
@@ -35,8 +35,8 @@ Fungsi ini bertujuan untuk membuat nama alias/inisial dari suatu tipe data.
 'getch()'
 Fungsi ini bertujuan untuk menerima input karakter langsung, tanpa penulisan ke blok memori (enter), dan tanpa tampilan karakter ke layar (echo).
 
-'kbhit()'
-Fungsi ini bertujuan untuk menentukan, apakah suatu tombol papan ketik ditekan.
+ 'kbhit()' 
+ Fungsi ini bertujuan untuk menentukan, apakah suatu tombol papan ketik ditekan.
 
 'COORD coord'
 COORD adalah sebuah struct yang berisikan dua variabel bertipe SHORT, yaitu X dan Y.
