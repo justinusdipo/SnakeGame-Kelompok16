@@ -1,0 +1,36 @@
+Player Name :Renzo
+Played Date:Mon Oct 14 16:13:54 2019
+Score:6
+___________________________________________________
+Player Name :Abil
+Played Date:Mon Oct 14 16:16:04 2019
+Score:5
+___________________________________________________
+Player Name :Moca
+Played Date:Mon Oct 14 16:17:18 2019
+Score:8
+___________________________________________________
+Player Name :Tara
+Played Date:Mon Oct 14 16:37:56 2019
+Score:10
+___________________________________________________
+Nama Pemain :Rani
+Waktu Bermain:Wed Oct 16 08:22:58 2019
+Skor:2
+___________________________________________________
+Nama Pemain :
+Waktu Bermain:Wed Oct 16 08:24:39 2019
+Skor:2
+___________________________________________________
+Nama Pemain :Palayer 1
+Waktu Bermain:Wed Oct 16 08:38:21 2019
+Skor:3
+___________________________________________________
+Nama Pemain :Player
+Waktu Bermain:Wed Oct 16 09:00:21 2019
+Skor:3
+___________________________________________________
+Nama Pemain :
+Waktu Bermain:Thu Oct 24 09:08:30 2019
+Skor:8
+___________________________________________________
