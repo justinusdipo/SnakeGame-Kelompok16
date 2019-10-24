@@ -20,88 +20,88 @@ Snake Game mini merupakan sebuah aplikasi permainan ular sederhana menggunakan b
 
 ## Code Explanation
 
-#define ATAS 72
-#define BAWAH 80
-#define KIRI 75
-#define KANAN 77
+`#define ATAS 72`  
+`#define BAWAH 80`  
+`#define KIRI 75`  
+`#define KANAN 77`  
 Fungsi ini bertujuan untuk merepresentasikan nilai ASCII dari keyboard "arah".
 
- 'struct koordinat' 
+`struct koordinat`  
 Tipe data ini bertujuan untuk menyimpan kumpulan variabel dari berbagai jenis tipe data dan juga array.
 
-'typedef struct koordinat koordinat'
+`typedef struct koordinat koordinat` 
 Fungsi ini bertujuan untuk membuat nama alias/inisial dari suatu tipe data.
 
-'getch()'
+`getch()`
 Fungsi ini bertujuan untuk menerima input karakter langsung, tanpa penulisan ke blok memori (enter), dan tanpa tampilan karakter ke layar (echo).
 
- 'kbhit()' 
+`kbhit()` 
  Fungsi ini bertujuan untuk menentukan, apakah suatu tombol papan ketik ditekan.
 
-'COORD coord'
+`COORD coord` 
 COORD adalah sebuah struct yang berisikan dua variabel bertipe SHORT, yaitu X dan Y.
 
-'SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord)'
+`SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord)`
 Berfungsi untuk mengatur posisi kursor dengan nilai x dan y yang telah di set pada pemanggilan fungsi. Nilai x dan y yang telah di set pada pemanggilan fungsi akan di tampung pada variable coord ini. Kemudian posisi kursor akan digantikan posisi dengan nilainya coord ini.
 
-'SetConsoleCursorPosition()'
+`vSetConsoleCursorPosition()` 
 Fungsi ini digunakan untuk menetapkan posisi cursor di layar. 
 
-'GetStdHandle()'
+`GetStdHandle()`
 Fungsi yang digunakan untuk mendapatkan handle ke layar.
 
-'void rekamjejak()'
+`void rekamjejak()`
 Fungsi ini bertujuan untuk menyimpan data nama pemain dan skor dari permainan ke dalam file.txt dan menampilkan histori perolehan skor sebelumnya.
 
-'void load()'
+`void load()`
 Fungsi ini bertujuan untuk menampilkan proses Loading sebelum permainan dimulai.
 
-'void Gerak()'
+`void Gerak()`
 Fungsi ini bertujuan untuk menampilkan posisi ular dan makanan pada saat permainan berlangsung yan diperbarui setiap saat.
 
-'void Makanan()'
+`void Makanan()` 
 Fungsi ini bertujuan untuk mengatur posisi makanan yang berubah-ubah secara acak setiap kali ular berhasil memakan makanan tersebut.
 
-'int Skor()'
+`int Skor()` 
 Fungsi ini bertujuan untuk mengatur perolehan skor dan nyawa yang tersisa.
 
-'void Print()'
+`void Print()`
 Fungsi ini bertujuan untuk menampilkan instruksi cara bermain sebelum permainan dimulai.
 
-'void gotoxy(int x, int y)'
+`void gotoxy(int x, int y)`
 Fungsi ini bertujuan untuk memetakan koordinat pada layar permainan.
 
-'void GotoXY(int x,int y)'
+`void GotoXY(int x,int y)` 
 Fungsi ini bertujuan untuk memperbarui posisi koordinat dari pergerakan luar setiap saat selam permainan berlangsung.
 
-'void Belokan()'
+`void Belokan()` 
 Fungsi ini bertujuan untuk mengatur posisi ular berhenti pada suatu titik koordinat ketika tubuhnya berubah arah.
 
-'void Boarder()'
+`void Boarder()` 
 Fungsi ini bertujuan untuk membuat frame/batas dinding area permainan.
 
-'void Bawah()'
+`void Bawah()` 
 Fungsi ini bertujuan untuk mengatur perubahan posisi terhadap ular ke bawah ketika ditekan tombol "down" pada keyboard.
 
-'void Kiri()'
+`void Kiri()` 
 Fungsi ini bertujuan untuk mengatur perubahan posisi terhadap ular ke kiri ketika ditekan tombol "left" pada keyboard.
 
-'void Atas()'
+`void Atas()` 
 Fungsi ini bertujuan untuk mengatur perubahan posisi terhadap ular ke atas ketika ditekan tombol "up" pada keyboard.
 
-'void Kanan()'
+`void Kanan()` 
 Fungsi ini bertujuan untuk mengatur perubahan posisi terhadap ular ke kanan ketika ditekan tombol "right" pada keyboard.
 
-'void KeluarPermainan()'
+`void KeluarPermainan()` 
 Fungsi ini bertujuan untuk menampilkan akhir dari permainan/game over ketika nyawa ular sudah habis.
 
-'int Hanyaskor()'
+`int Hanyaskor()` 
 Fungsi ini bertujuan untuk menyimpan hasil perolehan skor atau jumlah makanan yang terlah berhasil dimakan oleh ular. 
 
-'info=fopen("rekamjejak.txt","a+")'
+`info=fopen("rekamjejak.txt","a+")`
 Fungsi ini digunakan untuk membuka dan menyimpan data hasil permainan pada file rekamjejak.txt
 
-'NamaPemainBaru[j]=toupper(NamaPemain[j])'
+`NamaPemainBaru[j]=toupper(NamaPemain[j])`
 Fungsi ini digunakan untuk mengubah karakter awalan dari suatu kata menjadi huruf kapital.
 
 ## License
